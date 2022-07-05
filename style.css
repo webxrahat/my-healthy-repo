@@ -105,3 +105,13 @@
     color: #fe0303;
     margin-left: 40px;
 }
+#last{
+    background-image: linear-gradient(to right,rgba(238, 202, 202, 0.397),rgba(237, 226, 152, 0.584)), url(images/female/slide-2.jpg);
+    background-position: left left;
+    background-size: contain;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    height: 600px;
+    width: 100%;
+}
