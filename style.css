@@ -106,7 +106,7 @@
     margin-left: 40px;
 }
 #last{
-    background-image: linear-gradient(to right,rgba(238, 202, 202, 0.397),rgba(237, 226, 152, 0.584)), url(images/female/slide-2.jpg);
+    background-image: linear-gradient(90deg,rgba(255, 255, 255, 0)30%,rgb(255, 238, 125)70%), url(images/female/slide-2.jpg);
     background-position: left left;
     background-size: contain;
     background-repeat: no-repeat;
@@ -115,6 +115,32 @@
     height: 600px;
     width: 100%;
 }
+.last-left{
+    flex-basis: 50%;
+}
 .last-right{
-    padding: 0px 30px 0px 100px;
+    flex-basis: 50%;
+    padding: 0px 30px 0px 0px;
+    margin-right: 50px;
+
+}
+.au{
+    font-size: 28px;
+    padding-bottom: 30px;
+    letter-spacing: 1px;
+}
+.au-p{
+    font-size: 18px;
+    padding-bottom: 30px;
+    line-height: 1.5;
+    letter-spacing: 1px;
+    text-align: justify;
+}
+.contact{
+    padding: 12px 20px;
+    background-image: linear-gradient(#5bc0eb, #BEDEEC);
+    border-radius: 20px;
+    box-shadow: 2px 2px 5px #767778;
+    display: inline-block;
+    color: #fe0303;
 }
