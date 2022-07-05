@@ -5,3 +5,11 @@
     font-family: 'Open Sans', sans-serif;
 }
 
+#top{
+    background-image: url(images/shapes/Frame\ 59.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 600px;
+    width: 100%;
+}
